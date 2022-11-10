@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Tranformar grados</title>
+    <script src="javascrip.js"></script>
+
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Convertidor C - F</legend>
+            <label for="centigrados">Centigrados</label>
+            <input type="text" id="centigrados" name="Centigrados"  value="0" >
+            <br>
+            <span id="res"></span>
+            <h3 id="resconver"></h3>
+            <input  type="button" name="btnCalcular" value="Convertir" 
+            onclick="convertidordegrados()">
+
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Calculador de porcentaje </legend>
+            <label for="valor">Ingrese el numero </label>
+            <input type="text" name="Valor" id="valor">
+             <br><br>
+            <span id="resultado2"></span>
+         
+            <input  type="button" name="btnCalcular" value="Porcentaje" 
+            onclick=" calcularporcentaje()">
+        </fieldset>
+
+        <fieldset>
+            <legend>Generar tabla </legend>
+            <label for="filas">Ingrese el numero de filas</label>
+            <input type="number" min="1" name="Filas" id="f" value="1">
+            <br>
+            <br>
+            <label for="columnas">Ingrese el numero de columnas</label>
+            <input type="number" min="1" name="Columnas" id="c" value="1">
+            <br>
+            <br>
+          
+            <input  type="button" name="btnCalcular" value="Crear tabla" 
+            onclick="generartabla()">
+            <br><br>
+       <div id="cot"></div>  
+        </fieldset>
+     
+    </form>
+    
+</body>
+</html>
